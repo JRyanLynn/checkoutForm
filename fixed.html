@@ -1,0 +1,112 @@
+<head>
+    <meta charset="UTF-8">
+     <title><Form class="HTML"></Form></title>
+     <link rel="stylesheet" type="text/css" href="./fixed.css"/>
+</head>
+
+<body>
+<div class="row-logo">
+<div class="logo-column">
+    <div class="content-column">
+        <div class="container-one">  
+            <div id="title-text">  
+              <h1 id="title"> <em>Magma Coffee Checkout</em></h1>
+            <p id="description">
+              <i><strong>Follow the instructions below to order</strong></i>
+            </p>
+            </div>
+</div>
+</div>
+
+<div class="row-form">
+    <div class="form-column">
+        <form id=survey-form>
+            <div class="form-group">
+              
+               <label for="name" id="name-label"> Name </label>
+              <input 
+                     id="name" 
+                     type="text" 
+                     name="name" 
+                     placeholder="First Last" 
+                     class="form-inputs" 
+                     required>
+              
+              <label for="email" id="email-label"> Email </label>
+              <input 
+                     id="email" 
+                     type="email" 
+                     name="email" 
+                     placeholder="email@place.com" 
+                     class="form-inputs" 
+                     required>
+              
+              <label for="number" id="number-label"> Age </label>
+              <input 
+                     id="number" 
+                     type="number" 
+                     name="number" 
+                     min="18" max="100" 
+                     placeholder="18" 
+                     class="form-inputs" 
+                     required>   
+              </div>
+            <div class="form-group">
+              <label for="dropdown" id="size">Select Size</label>
+              <select id="dropdown">
+                <option value = "small"> Small</option>
+                <option value = "medium"> Medium</option>
+                <option value = "large"> Large</option>
+                <option value = "x-large"> Huge</option>
+                <option value = "American"> American (Jumbo)</option>
+              </select>
+              </div> 
+            
+             <div class="form-group">
+               <br><label for="temp" id="temp-label">How hot do you want your coffee?</label></br>
+               <br><input id="temp-label" type="radio" name="temp" value="extra-hot">   
+              <label for="temp-label">Extra Hot</label></br>
+              <br><input id="temp-label" type="radio" name="temp" value="hot">
+              <label for="temp">Hot</label></br>
+              <br><input id="temp-label" type="radio" name="temp" value="iced">
+              <label for=""temp">Iced</label></br>                 
+             <div class="form-group">
+                <p>Choose Your Coffee</p>
+                <label>
+                       <input 
+                              name="check"
+                              value="check"
+                              type="checkbox"
+                              class="input-checkbox"
+                              />Black ($3.50)</label></br>
+                                                    
+            <label>
+                       <br><input 
+                              name="check"
+                              value="check"
+                              type="checkbox"
+                              class="input-checkbox"
+                              />Latte ($4.00)</label></br>
+                                                    
+            <label>
+                       <br><input 
+                              name="check"
+                              value="check"
+                              type="checkbox"
+                              class="input-checkbox"
+                              />Mocha ($4.50)</label></br>       </div>                       
+            <div class="form-group">
+            <p>What else can we do for you today?</p>
+              <textarea
+                        id="comments"
+                        class="input-textarea"
+                        name="comment"
+                        placeholder="Type here"></textarea>
+              </div> 
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+              </div>                                                                                                         
+              </form>   
+    </div>
+</div>
+</body>
